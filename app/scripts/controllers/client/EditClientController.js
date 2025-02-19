@@ -123,7 +123,6 @@
             );
             scope.date.submittedOnDate = new Date(submittedOnDate);
           }
-          console.log("scope.formData: ", scope.formData);
         }
       );
 
