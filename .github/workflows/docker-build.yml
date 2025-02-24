@@ -12,7 +12,7 @@ on:
 env:
   PROJECT_ID: ${{ vars.ARTIFACT_PROJECT_ID }}
   REGISTRY: ${{ vars.ARTIFACT_CONTAINER_REGISTRY }}
-  IMAGE_NAME: community-app
+  IMAGE_NAME: fineract/ui-community-app
 
 jobs:
   build-and-push:
